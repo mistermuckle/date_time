@@ -1,6 +1,6 @@
 <?php
 
-namespace 'DateTime';
+namespace DateTime;
 
 class NullDateTime implements \DateTimeInterface
 {
