@@ -2,9 +2,9 @@
 
 namespace DateTime;
 
-class NullDateTime implements \DateTimeInterface
+class NullDateTime extends \DateTime
 {
-    public function diff($datetime2, $absolute)
+    public function diff($datetime2, $absolute = null)
     {
         return false;
     }
