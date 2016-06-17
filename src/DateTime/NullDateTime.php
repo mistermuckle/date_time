@@ -4,7 +4,7 @@ namespace DateTime;
 
 class NullDateTime implements \DateTimeInterface
 {
-    public function diff(\DateTimeInterface $datetime2, $absolute)
+    public function diff($datetime2, $absolute)
     {
         return false;
     }
